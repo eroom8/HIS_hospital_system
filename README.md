@@ -1,8 +1,5 @@
 # HIS_hospital_system
 patient details capture with database 
-
-
-*
 CREATE DATABASE test;
 CREATE TABLE registration 
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -29,4 +26,4 @@ CREATE TABLE registration
 
 clone the program on vscode
 go to index.html and run then select preffered web browser
-*
+ensure your folder is saved in xammp/htdocs 
