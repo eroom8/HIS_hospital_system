@@ -6,146 +6,177 @@
   </head>
   <body>
     <div class="container">
-      <div class="row col-md-8 col-md-offset-2">
-        <div class="panel panel-primary">
-          <div class="panel-heading text-center">
-            <h1>Patients Registration Form</h1>
-          </div>
-          <div class="panel-body">
-            <form action="connect.php" method="post">
-              <div class="form-group">
-                <label for="telephone">Telephone</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="telephone"
-                  name="telephone"
-                />
-              </div>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  name="name"
-                />
-              </div>
-              <div class="form-group">
-                <label for="dob">Date of Birth</label>
-                <input
-                  type="date"
-                  class="form-control"
-                  id="dob"
-                  name="dob"
-                />
-                <label for="idNumber">ID Number</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="idNumber"
-                  name="idNumber"
-                />
-              </div>
-              <div class="form-group">
-                <label for="address">Address</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="address"
-                  name="address"
-                />
-              </div>
-              <div class="form-group">
-                <label for="county">County</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="county"
-                  name="county"
-                />
-                <label for="subCounty">Sub County</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="subCounty"
-                  name="subCounty"
-                />
-              </div>
-              <div class="form-group">
-                <label for="patientEmail">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="patientEmail"
-                  name="patientEmail"
-                />
-              </div>
-              <div class="form-group">
-                <label for="gender">Gender</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="gender"
-                  name="gender"
-                />
-                <label for="maritalStatus">Marital Status</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="maritalStatus"
-                  name="maritalStatus"
-                />
-              </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="panel panel-primary">
+            <div class="panel-heading text-center">
+              <h1>Patients Registration Form</h1>
+            </div>
+            <div class="panel-body">
+              <form action="connect.php" method="post">
+                <div class="form-group">
+                  <label for="telephone">Telephone</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="telephone"
+                    name="telephone"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                  />
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="dob">Date of Birth</label>
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="dob"
+                      name="dob"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="idNumber">ID Number</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="idNumber"
+                      name="idNumber"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="address">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="address"
+                    name="address"
+                  />
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="county">County</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="county"
+                      name="county"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="subCounty">Sub County</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="subCounty"
+                      name="subCounty"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="patientEmail">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="patientEmail"
+                    name="patientEmail"
+                  />
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="gender">Gender</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="gender"
+                      name="gender"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="maritalStatus">Marital Status</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="maritalStatus"
+                      name="maritalStatus"
+                    />
+                  </div>
+                </div>
 
-              <h2>Next of Kin</h2>
-              <div class="form-group">
-                <label for="kinName">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="kinName"
-                  name="kinName"
-                />
-              </div>
-              <div class="form-group">
-                <label for="kinDob">Date of Birth</label>
-                <input
-                  type="date"
-                  class="form-control"
-                  id="kinDob"
-                  name="kinDob"
-                />
-                <label for="kinIdNumber">ID Number</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="kinIdNumber"
-                  name="kinIdNumber"
-                />
-              </div>
-              <div class="form-group">
-                <label for="kinGender">Gender</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="kinGender"
-                  name="kinGender"
-                />
-                <label for="relationship">Relationship</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="relationship"
-                  name="relationship"
-                />
-              </div>
+                <h2>Next of Kin</h2>
+                <div class="form-group">
+                  <label for="kinName">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="kinName"
+                    name="kinName"
+                  />
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="kinDob">Date of Birth</label>
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="kinDob"
+                      name="kinDob"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="kinIdNumber">ID Number</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="kinIdNumber"
+                      name="kinIdNumber"
+                    />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="kinGender">Gender</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="kinGender"
+                      name="kinGender"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="relationship">Relationship</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="relationship"
+                      name="relationship"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="kinTelephone">Telephone</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="kinTelephone"
+                    name="kinTelephone"
+                  />
+                </div>
 
-              <input type="submit" class="btn btn-primary" />
-            </form>
-          </div>
-          <div class="panel-footer text-right">
-            <small>&copy; Eric Muthee</small>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="panel-footer text-right">
+              <small>&copy; Eric Muthee</small>
+            </div>
           </div>
         </div>
       </div>
