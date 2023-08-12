@@ -27,3 +27,19 @@ CREATE TABLE registration
 clone the program on vscode
 go to index.html and run then select preffered web browser
 ensure your folder is saved in xammp/htdocs 
+
+
+
+
+![Screenshot (182)](https://github.com/eroom8/HIS_hospital_system/assets/89536199/84247ac0-e410-4e12-8fa3-a76e3081c01e)
+
+![Screenshot (183)](https://github.com/eroom8/HIS_hospital_system/assets/89536199/02e376a4-8f7e-4f0f-9a39-298ca49a6c43)
+
+
+
+![Screenshot (184)](https://github.com/eroom8/HIS_hospital_system/assets/89536199/c841e3d8-814a-44ae-802e-7d2401c6360a)
+
+
+
+
+
