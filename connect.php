@@ -66,12 +66,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = '';
         $mail->SMTPAuth = true;
-        $mail->Username = ' '; //replace with your email
-        $mail->Password = ' '; //replace with your password
+        $mail->Username = ''; //replace with your email
+        $mail->Password = ''; //replace with your password
         $mail->SMTPSecure = 'tls';
-        $mail->Port = ; // add port 
+        $mail->Port = 587 ; // add port 
         
 
 
