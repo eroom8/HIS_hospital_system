@@ -38,8 +38,11 @@ ensure your folder is saved in xammp/htdocs
 
 
 ![Screenshot (184)](https://github.com/eroom8/HIS_hospital_system/assets/89536199/c841e3d8-814a-44ae-802e-7d2401c6360a)
+![Screenshot (187)](https://github.com/eroom8/HIS_hospital_system/assets/89536199/1290a869-1160-4778-b46d-1f5fc83a952e)
+
+![Screenshot (188)](https://github.com/eroom8/HIS_hospital_system/assets/89536199/5c2d55ec-b26d-4bba-b2ff-c7e9b2c80ce7)
 
 
-
+![Screenshot (189)](https://github.com/eroom8/HIS_hospital_system/assets/89536199/c576e4b9-3252-43d1-aec8-c2d43475c68e)
 
 
