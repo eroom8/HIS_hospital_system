@@ -1,5 +1,5 @@
+# HIS Hospital System
 #SQL
-# HIS_hospital_system
 patient details capture with database 
 CREATE DATABASE test;
 CREATE TABLE registration 
